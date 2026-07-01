@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6i0529/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說一切法高王經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0823.xml
+    old_id: T17n0823
+hash: sha256:e7143816cc20c5d50e1410645ac519f191d84d96bf398de98d08727101708260

@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6i0529/T/v1
+canonical_location: https://kanripo.org/bkk/KR6i0529/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說一切法高王經
+  identifiers:
+    krp: KR6i0529
+    cbeta: T17n0823
+    cbeta_old_id: T17n0823
+    authorityid: CA0003715
+    json_key: T0823
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T17/T17n0823.xml
+    old_id: T17n0823
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0529_000-T.yaml, hash: 'sha256:e7143816cc20c5d50e1410645ac519f191d84d96bf398de98d08727101708260'}
+  - {seq: 1, filename: KR6i0529_001-T.yaml, hash: 'sha256:12e782569f20eb4cd9678dae693055eadbdf2dffae75f1c22ce6b07d5635b5c0'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0529_000-T.markers.yaml, hash: 'sha256:61c0041b4315c737074033f4fc3489673aeb0db70e8d4acae69c1e9d729710a5'}
+  - {seq: 1, role: markers, filename: assets/KR6i0529_001-T.markers.yaml, hash: 'sha256:ab48b353032e3cf7fbbcb1199eed38315096cb89053d7578390e32ad985a7fa4'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0529_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 8645
+  label: 佛說一切法高王經一名《一切法義王經》
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6i0529_T_001-mulu-1
+    span:
+    - body
+    - 8448
+    - 8448
+  label: 一切法高王經翻譯之記
+  type: mulu
+  level: 1
+hash: sha256:88d1251f50a97ca6517225d07a112479e1b65f83a6e8d0b91f486fb8321f2a45
