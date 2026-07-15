@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0529/v1
 canonical_location: https://kanripo.org/bkk/KR6i0529/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說一切法高王經
   identifiers:
@@ -37,10 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0529_000.yaml, hash: 'sha256:e7143816cc20c5d50e1410645ac519f191d84d96bf398de98d08727101708260'}
-  - {seq: 1, filename: KR6i0529_001.yaml, hash: 'sha256:12e782569f20eb4cd9678dae693055eadbdf2dffae75f1c22ce6b07d5635b5c0'}
+  - {seq: 1, filename: KR6i0529_001.yaml, hash: 'sha256:4b6e7529933d8ee0314065be5fd9c65c0b44d31e4c7d2df90eae0b0ac244a149'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0529_000.markers.yaml, hash: 'sha256:5216a70519fa65e652b9d70dab1037a1c2d25c1ca088d659f72703ba66b84b2a'}
-  - {seq: 1, role: markers, filename: assets/KR6i0529_001.markers.yaml, hash: 'sha256:a1d376045d831d56baf4e70aba2fd6eed7fb48bf39ca55922f6da05be15924c0'}
+  - {seq: 1, role: markers, filename: assets/KR6i0529_001.markers.yaml, hash: 'sha256:48622a4fb9cf8e4e14f2d09426bc71c241f6bb40ab24a358bf76cdddaa907921'}
 table_of_contents:
 - ref:
     seq: 1
@@ -62,4 +62,7 @@ table_of_contents:
   label: 一切法高王經翻譯之記
   type: mulu
   level: 1
-hash: sha256:5b90b8502ca4a0772ae0616abca2d15b66e78eee1f7277d1b65a7c2792b70d86
+hash: sha256:c5829af5f4c03b62916e6529f388f86ba70f104df0a7b95f4ed006bd00bcbdb1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
